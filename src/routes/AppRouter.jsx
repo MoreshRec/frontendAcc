@@ -3,12 +3,12 @@ import LandingPage from "../pages/LandingPage/LandingPage";
 import { Route, Routes } from "react-router-dom";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
-import Dashboardlayout from "../pages/ProfileDashboard/Dashboardlayout";
-import Personal from "../pages/ProfileDashboard/Profile/Personal";
-import MobileNumbers from "../pages/ProfileDashboard/Profile/MobileNumbers";
+// import Dashboardlayout from "../pages/ProfileDashboard/Dashboardlayout";
+// import Personal from "../pages/ProfileDashboard/Profile/Personal";
+// import MobileNumbers from "../pages/ProfileDashboard/Profile/MobileNumbers";
 import ProfilePage from "../pages/ProfilePage/ProfilePage";
-import CRMLayout from "../Modules/CRM/CRMLayout";
-import CRMHome from "../Modules/CRM/Dashboard/CRMHome";
+// import CRMLayout from "../Modules/CRM/CRMLayout";
+// import CRMHome from "../Modules/CRM/Dashboard/CRMHome";
 // import Useremails from "../pages/ProfileDashboard/Profile/Useremails";
 
 const AppRouter = () => {
@@ -21,19 +21,19 @@ const AppRouter = () => {
 
 
       {/* dashboard layout  */}
-      <Route path="/dashboard" element={<Dashboardlayout />}>
-        <Route path="profile/personal" element={<Personal />} />
+      {/* <Route path="/dashboard" element={<Dashboardlayout />}> */}
+        {/* <Route path="profile/personal" element={<Personal />} /> */}
         {/* <Route path="profile/email" element={<Useremails />} /> */}
-        <Route path="profile/mobile" element={<MobileNumbers />} />
-      </Route>
+        {/* <Route path="profile/mobile" element={<MobileNumbers />} /> */}
+      {/* </Route> */}
 
       {/* CRM Routes */}
-      <Route path="/crm" element={<CRMLayout />}>
-        <Route index element={<CRMHome />} />
+      {/* <Route path="/crm" element={<CRMLayout />}> */}
+        {/* <Route index element={<CRMHome />} /> */}
        {/* <Route path="leads" element={<Leads />} />
         <Route path="contacts" element={<Contacts />} />
         <Route path="deals" element={<Deals />} /> */}
-      </Route>
+      {/* </Route> */}
     </Routes>
   );
 };

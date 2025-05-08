@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { RxCodesandboxLogo } from "react-icons/rx";
 import { RiArrowLeftBoxLine } from "react-icons/ri";
 import { LuSquareArrowRight } from "react-icons/lu";
-import Sidebar from "./sidebar";
+// import Sidebar from "./sidebar";
 import UserProfile from "./UserProfile";
 
 const DashboardLayout = () => {
