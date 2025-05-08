@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FiMail, FiTrash2 } from "react-icons/fi";
 import { toast } from "react-toastify";
 
-const UserEmails = () => {
+const Useremails = () => {
   const [emails, setEmails] = useState([
     {
       email: "moreshwarrecruitlogy@gmail.com",
@@ -162,4 +162,4 @@ const UserEmails = () => {
   );
 };
 
-export default UserEmails;
+export default Useremails;

@@ -5,11 +5,11 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Dashboardlayout from "../pages/ProfileDashboard/Dashboardlayout";
 import Personal from "../pages/ProfileDashboard/Profile/Personal";
-import UserMails from "../pages/ProfileDashboard/Profile/UsereMails";
 import MobileNumbers from "../pages/ProfileDashboard/Profile/MobileNumbers";
 import ProfilePage from "../pages/ProfilePage/ProfilePage";
 import CRMLayout from "../Modules/CRM/CRMLayout";
 import CRMHome from "../Modules/CRM/Dashboard/CRMHome";
+import Useremails from "../pages/ProfileDashboard/Profile/Useremails";
 
 const AppRouter = () => {
   return (
@@ -23,7 +23,7 @@ const AppRouter = () => {
       {/* dashboard layout  */}
       <Route path="/dashboard" element={<Dashboardlayout />}>
         <Route path="profile/personal" element={<Personal />} />
-        <Route path="profile/email" element={<UserMails />} />
+        <Route path="profile/email" element={<Useremails />} />
         <Route path="profile/mobile" element={<MobileNumbers />} />
       </Route>
 
